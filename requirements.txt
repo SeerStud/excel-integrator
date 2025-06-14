@@ -1,0 +1,8 @@
+PySide6
+pandas
+rapidfuzz
+fuzzywuzzy
+python-Levenshtein
+openpyxl
+xlrd
+spacy

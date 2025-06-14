@@ -1,0 +1,143 @@
+{
+    "column_rules": {
+        "rules": [
+            {
+                "target": "Вакцинация",
+                "synonyms": [
+                    "Вакц-я",
+                    "вакц",
+                    "вакцинация"
+                ],
+                "no_merge": false
+            }
+        ],
+        "enabled": true,
+        "threshold": 60,
+        "auto_merge": false,
+        "use_content": true,
+        "content_rows": 5,
+        "header_weight": 0.2
+    },
+    "unit_rules": {
+        "rules": [
+            {
+                "column": "Длина",
+                "to": "см",
+                "factors": {
+                    "м": 100.0,
+                    "метр": 100.0,
+                    "см": 1.0
+                }
+            },
+            {
+                "column": "Расстояние",
+                "to": "м",
+                "factors": {
+                    "км": 1000.0,
+                    "м": 1.0
+                }
+            },
+            {
+                "column": "Объём",
+                "to": "мл",
+                "factors": {
+                    "л": 1000.0,
+                    "литр": 1000.0,
+                    "мл": 1.0
+                }
+            },
+            {
+                "column": "Толщина",
+                "to": "мм",
+                "factors": {
+                    "мм": 1.0,
+                    "см": 10.0,
+                    "м": 1000.0
+                }
+            }
+        ],
+        "enabled": true,
+        "no_unit_to_header": true,
+        "threshold": 60,
+        "auto_merge": true
+    },
+    "sheet_rules": {
+        "rules": [
+            {
+                "target": "РФФИ Данные Бурятия 2007-2014",
+                "synonyms": [
+                    "РФФИ_Данные_Бурятия_2007-2014",
+                    "РФФИ Данные Бурятия"
+                ],
+                "no_merge": false
+            },
+            {
+                "target": "Бурятия 2016",
+                "synonyms": [
+                    "Бурятия 2016 по 11.08.2016",
+                    "Бурятия_2016",
+                    "Buryatia 2016"
+                ],
+                "no_merge": false
+            }
+        ],
+        "enabled": true,
+        "threshold": 80,
+        "auto_merge": false
+    },
+    "word_filter": {
+        "rules": [
+            {
+                "word": "ожидание",
+                "delete_row": false
+            }
+        ],
+        "enabled": true,
+        "threshold": 90,
+        "auto_merge": false
+    },
+    "word_replace": {
+        "rules": [
+            {
+                "target": "есть",
+                "synonyms": [
+                    "Да"
+                ]
+            },
+            {
+                "target": "женский",
+                "synonyms": [
+                    "самка"
+                ]
+            },
+            {
+                "target": "мужской",
+                "synonyms": [
+                    "самец"
+                ]
+            }
+        ],
+        "enabled": true,
+        "threshold": 80,
+        "auto_replace": false,
+        "use_content": false,
+        "content_rows": 10,
+        "header_weight": 0.6
+    },
+    "column_word_filter": {
+        "rules": [
+            {
+                "word": "Примечание",
+                "delete_row": false
+            },
+            {
+                "word": "Калькулятор",
+                "delete_row": false
+            }
+        ],
+        "enabled": true
+    },
+    "skip_rows_keywords": [
+        "Сокращения"
+    ]
+}
