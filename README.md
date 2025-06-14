@@ -1,5 +1,5 @@
 Для установки программного обеспечения на Windows понадобится:
-#1. Установить Python 3.8
+1. Установить Python 3.8
 1.1. Перейти по ссылке https://www.python.org/downloads/release/python-380/
 1.2. Скачать «Windows x86-64 executable installer» или «Windows x86 executable installer» в зависимости от разрядности операционной системы
 1.3. Установить файл и при установке поставить галочку "Add Python to PATH"
