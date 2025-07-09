@@ -1,4 +1,4 @@
-Информация о данном ПО в виде презентации: https://disk.yandex.ru/i/qUS_4sIVi7xBYw
+Информация о данном ПО в виде презентации: https://disk.yandex.ru/i/u1uYENruaWWmrw
 
 Для установки программного обеспечения на Windows понадобится:
 1. Установить Python 3.8
