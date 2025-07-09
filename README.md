@@ -1,3 +1,4 @@
+<iframe src="https://1drv.ms/p/c/0ec32440db59ff28/IQTifHtv7MSyT6EItpjCJcxsAX8t-2u96w0w7YHN5UXlfzs?em=2&amp;wdAr=1.7777777777777777" width="700px" height="500px" frameborder="0">Это внедренный презентация <a target="_blank" href="https://office.com">Microsoft Office</a> на платформе <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
 Для установки программного обеспечения на Windows понадобится:
 1. Установить Python 3.8
 1.1. Перейти по ссылке https://www.python.org/downloads/release/python-380/
