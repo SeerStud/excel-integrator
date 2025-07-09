@@ -1,4 +1,5 @@
 Информация о данном ПО в виде презентации: https://disk.yandex.ru/i/qUS_4sIVi7xBYw
+
 Для установки программного обеспечения на Windows понадобится:
 1. Установить Python 3.8
 1.1. Перейти по ссылке https://www.python.org/downloads/release/python-380/
